@@ -23,20 +23,15 @@ ul {
 }
 
 .tab-menu {
+  display: flex;
+  align-items: center;
   margin: 0 auto;
   max-width: 540px;
   border-bottom: 1px solid #e5eaef;
   background-color: #fff;
 }
 
-.tab-menu::after {
-  content: "";
-  display: block;
-  clear: left;
-}
-
 .tab-menu-item {
-  float: left;
   margin-right: 16px;
 }
 
